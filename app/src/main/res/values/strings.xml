@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Learn</string>
+    <string name="projectList">项目列表</string>
+    <string name="alertDialog_text">public void onClick(View view) {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(AlertDialogAct.this);
+        alertDialog.setTitle(\"alertDialog.setTitle设置标题\");
+        alertDialog.setMessage(\"alertDialog.setMessage设置信息\");
+        alertDialog.setCancelable(false);
+        alertDialog.setPositiveButton(\"O K\" ,
+                                        new DialogInterface.OnClickListener() {
+                                        @Override public void onClick(DialogInterface dialogInterface, int which) { } });
+        alertDialog.setNegativeButton(\"Cancle\",
+                                        new DialogInterface.OnClickListener() {
+                                        @Override public void onClick(DialogInterface dialogInterface, int i) { } });
+        alertDialog.show(); } }</string>
+    <string name="alertdialog">AlertDialog</string>
+</resources>
