@@ -14,4 +14,15 @@
                                         @Override public void onClick(DialogInterface dialogInterface, int i) { } });
         alertDialog.show(); } }</string>
     <string name="alertdialog">AlertDialog</string>
+    <string name="send">send</string>
+    <string name="layout_text">LinearLayout--weight用法。下面EditText有weight属性。当有weight属性时。该控件会忽视width属性，不过按照规范，width应该填写0dp。 weight用法：假设屏幕一行为100，先减去同一行中没有weight属性控件的宽。本例中Button没有weight（假设宽为8），剩下92将作为同一行中所有带有weight属性控件的总长度。 本例中EditText的weight是1.所以该EditText占92的 1（分子是该控件的weight）/1（分母是所有带有weight的总和）的宽度</string>
+    <string name="layou_hint">android:layout_weight为1</string>
+    <string name="layout_code">(EditText)android:layout_width= \"0dp\"
+            android:layout_height=\"match_parent\"
+            android:layout_weight=\"1\"
+
+            (Button) android:layout_width=\"wrap_content\"
+            android:layout_height=\"wrap_content\"
+            android:text=\"@string/send\"</string>
+    <string name="titile_string">自定义布局</string>
 </resources>

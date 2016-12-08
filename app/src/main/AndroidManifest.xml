@@ -15,10 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.AlertDialogAct">
+        <activity android:name=".activities.AlertDialogAct"> </activity>
+        <activity android:name=".activities.LinearLayoutAct"> </activity>
+        <activity android:name=".activities.TitleAct"> </activity>
+        <activity android:name=".activities.CustomControlTitle"> </activity>
 
-
-        </activity>
     </application>
 
 </manifest>
